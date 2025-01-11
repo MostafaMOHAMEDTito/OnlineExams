@@ -4,7 +4,6 @@ import { getServerSession, Session } from "next-auth";
 import { OPTIONS } from "@/app/auth";
 import { JSON_HEADER } from "@/lib/constants/api.constants";
 
-
 export default async function Quiez() {
   const { token } = (await getServerSession(OPTIONS)) as Session;
 
@@ -18,7 +17,6 @@ export default async function Quiez() {
   }
 
   const data = await getAllQuiez.json();
-
 
   const subjects: subjects = data.subjects;
 
