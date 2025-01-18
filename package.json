@@ -1,7 +1,7 @@
 {
   "name": "dashboard",
   "version": "0.1.0",
-  "homepage": "https://MostafaMOHAMEDTito.github.io/dashboard",
+  "homepage": "https://MostafaMOHAMEDTito.github.io/OnlineExams",
   "private": true,
   "scripts": {
     "dev": "next dev",

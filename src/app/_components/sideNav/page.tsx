@@ -100,7 +100,7 @@ export default function SideNav() {
             </li>
             <li>
               <button
-                onClick={() => router.push("/dashboard/quizHistory")}
+                onClick={() => router.push("/OnlineExams/quizHistory")}
                 className="flex items-center p-2 text-[#7B8089] rounded-lg dark:text-white hover:bg-maincolor hover:text-white dark:hover:bg-gray-700 group"
               >
                 <span className="ms-3">Quiz History</span>

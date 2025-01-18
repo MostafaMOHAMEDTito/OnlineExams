@@ -6,12 +6,11 @@ import UserProfileCard from "@/components/userProfileCard/page";
 export default async function Dashboard() {
   // UI rendering
   return (
-    <section className="relative">
-      <SideNav />
-      <div className="p-4 sm:ml-64 w-[1063]">
-        <UserProfileCard/>
+    <>
+      <div >
+        <UserProfileCard />
         <Quiez />
       </div>
-    </section>
+    </>
   );
 }

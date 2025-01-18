@@ -28,7 +28,7 @@ export default async function Quiez() {
         {subjects?.map(
           (subject: { _id: string; name: string; icon?: string }) => (
             <Link
-              href={"/dashboard/quizHistory"}
+              href={"/OnlineExams/quizHistory"}
               key={subject._id}
               className="relative sm:w-[calc(50%-1rem)] lg:w-[calc(33.33%-1rem)] box-border rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 bg-white"
             >
